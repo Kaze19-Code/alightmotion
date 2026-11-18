@@ -8,14 +8,14 @@ objc = {
     "licenses": [
       {
         "benefits": [
-          "RemoveWatermark","去除水印",
-          "MemberEffects","会员特效",
-          "ProjectPackageSharing","项目包分享",
-          "FutureMemberFeatures"“FutureMemberFeatures”,"未来会员功能",
-          "AdvancedEasing","高级缓动",
-          "CameraObjects"“CameraObjects”,"摄像机对象",
-          "LayerParenting","图层父子关系",
-          "CloudStorageLowTier""低级云存储""低级云存储"
+          "RemoveWatermark",
+          "MemberEffects",
+          "ProjectPackageSharing",
+          "FutureMemberFeatures",
+          "AdvancedEasing",
+          "CameraObjects",
+          "LayerParenting",
+          "CloudStorageLowTier"
         ],
         "type": "subscription",
         "store": "apple_app_store",
