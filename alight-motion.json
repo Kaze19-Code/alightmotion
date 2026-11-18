@@ -1,0 +1,38 @@
+var objc = JSON.parse($response.body);
+
+objc = {
+  "result": {
+    "result": "success",
+    "msTime": 1709216800128,
+    "accountCreatedMillis": null,
+    "licenses": [
+      {
+        "benefits": [
+          "RemoveWatermark","去除水印",
+          "MemberEffects","会员特效",
+          "ProjectPackageSharing","项目包分享",
+          "FutureMemberFeatures","未来会员功能",
+          "AdvancedEasing","高级缓动",
+          "CameraObjects","摄像机对象",
+          "LayerParenting","图层父子关系",
+          "CloudStorageLowTier""低级云存储"
+        ],
+        "type": "subscription",
+        "store": "apple_app_store",
+        "autoRenewing": true,
+        "orderNumber": "BINGPI_YUEPEI_300001752007005",
+        "productId": "alightcreative.motion.bingpi_yuepei_lifetime",
+        "period": "lifetime",
+        "label": null,
+        "details": null,
+        "expires": 32503679999000,
+        "valid": true,
+        "linkStatus": "linked-current"
+      }
+    ],
+    "warnings": []
+  }
+}
+
+
+$done({ body: JSON.stringify(objc) });
